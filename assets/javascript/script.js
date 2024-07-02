@@ -1,9 +1,9 @@
 let question = prompt("what would you like to do?");
-let list = ""
+let list = ["","","","",""]
 
 if ( question === "New") {
-    prompt("Enter new ToDo")
-    console.log(question)
+    let answer = prompt("Enter new ToDo")
+    console.log(answer)
     // let newTask = ""
     // console.log(newTask)
 }
