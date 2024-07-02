@@ -1,9 +1,25 @@
 header {
     text-align: center;
-    text-decoration: underline;
+    text-decoration:5px underline;
     padding: 20px;
     font-size: xx-large;
     letter-spacing: 20px;
     color: steelblue;
     
+}
+
+ul {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size:large;
+    list-style-position: inside;
+    border: 5px solid rgb(196, 18, 166);
+}
+
+li {
+    margin-bottom: 20px;
+    color: blueviolet;
+    list-style-position:inside;
+    border: 5px solid rgb(196, 18, 166);
+    margin-top: 20px;
 }
