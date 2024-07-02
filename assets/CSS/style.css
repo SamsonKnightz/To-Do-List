@@ -17,9 +17,12 @@ ul {
 }
 
 li {
+    font-size: larger;
+    font-weight: bolder;
     margin-bottom: 20px;
     color: blueviolet;
     list-style-position:inside;
     border: 5px solid rgb(196, 18, 166);
     margin-top: 20px;
+    border-radius: 10px;
 }
