@@ -7,4 +7,12 @@ if ( question === "New") {
     // let newTask = ""
     // console.log(newTask)
 }
+// else if (question === "List") {
 
+// }
+// else if ( question === "Delete") {
+
+// }
+// else if ( question === " Quit") {
+
+// }
