@@ -1,15 +1,16 @@
 let question = prompt("what would you like to do?");
-let list = ["","","","",""]
+let list = [""]
 
 if ( question === "New") {
-    let answer = prompt("Enter new ToDo")
-    console.log(answer)
-    // let newTask = ""
-    // console.log(newTask)
+    let newTask = prompt("Enter new ToDo")
+    list.push(newTask)
+    console.log(`You added "${newTask}" to the ToDo list`)
 }
-// else if (question === "List") {
-
-// }
+else if (question === "List") {
+    for (let i = 0; i < list.length; i++) {
+        console.log(`${i}: ${list[i]}`);
+}
+}
 // else if ( question === "Delete") {
 
 // }
